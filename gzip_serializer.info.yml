@@ -1,0 +1,4 @@
+name: GZip Serializer
+type: module
+description:  Provides a serializer service that uses PHP serialization and GZIP compression.
+core: 8.x

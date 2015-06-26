@@ -1,0 +1,3 @@
+services:
+  serialization.gzip_php_serialize:
+    class: Drupal\gzip_serializer\GzipPhpSerialize
