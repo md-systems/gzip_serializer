@@ -8,7 +8,7 @@ To use it for the expirable key value store, put the following in sites/default/
 
       keyvalue.expirable.database:
         class: Drupal\Core\KeyValueStore\KeyValueDatabaseExpirableFactory
-        arguments: ['@serialization.gzip_php_serialize', '@database']
+        arguments: ['@serialization.gzip_serialize', '@database']
         
  **Warning:**
  
